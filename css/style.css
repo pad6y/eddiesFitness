@@ -317,7 +317,7 @@ footer {
   align-items: center;
   list-style: none;
   width: 5rem;
-  height: auto;
+  height: 5rem;
   margin: 1.4rem 2.5rem;
   font-size: 3rem;
   border: 2px solid #303030;
@@ -325,8 +325,6 @@ footer {
 }
 @media only screen and (max-width: 37.5em) {
   .comms__item {
-    width: 7rem;
-    height: 7rem;
     font-size: 4rem;
     margin: 1.4rem 0.5rem;
   }
@@ -483,7 +481,7 @@ footer {
 
 .testimonial__card {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   height: auto;
   width: 100%;
@@ -502,7 +500,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30%;
   margin-bottom: 3rem;
   padding: 2rem 3rem;
   border-radius: 25px;
@@ -516,7 +513,6 @@ footer {
   }
 }
 .testimonial__card > p {
-  height: auto;
   line-height: 1.5;
 }
 @media only screen and (max-width: 37.5em) {

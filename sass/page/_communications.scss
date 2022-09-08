@@ -6,7 +6,7 @@
     @include flexCenter;
     list-style: none;
     width: 5rem;
-    height: auto;
+    height: 5rem;
     margin: 1.4rem 2.5rem;
 
     font-size: 3rem;
@@ -14,8 +14,6 @@
     border-radius: 50%;
 
     @include respond(phone) {
-      width: 7rem;
-      height: 7rem;
       font-size: 4rem;
       margin: 1.4rem 0.5rem;
     }

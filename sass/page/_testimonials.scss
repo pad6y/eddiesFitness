@@ -11,7 +11,7 @@
 
 .testimonial__card {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
   height: auto;
   width: 100%;
@@ -29,7 +29,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
     margin-bottom: 3rem;
     padding: 2rem 3rem;
     border-radius: 25px;
@@ -42,7 +41,6 @@
     }
   }
   & > p {
-    height: auto;
     line-height: 1.5;
     @include respond(phone) {
       font-size: 2rem;
