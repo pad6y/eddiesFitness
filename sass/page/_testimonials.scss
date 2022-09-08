@@ -11,7 +11,7 @@
 
 .testimonial__card {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
   height: auto;
   width: 100%;
@@ -29,7 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 30%;
+    height: 30%;
     margin-bottom: 3rem;
     padding: 2rem 3rem;
     border-radius: 25px;

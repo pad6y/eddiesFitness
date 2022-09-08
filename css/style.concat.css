@@ -317,7 +317,7 @@ footer {
   align-items: center;
   list-style: none;
   width: 5rem;
-  height: 5rem;
+  height: auto;
   margin: 1.4rem 2.5rem;
   font-size: 3rem;
   border: 2px solid #303030;
@@ -483,7 +483,7 @@ footer {
 
 .testimonial__card {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
   height: auto;
   width: 100%;
@@ -502,7 +502,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 30%;
+  height: 30%;
   margin-bottom: 3rem;
   padding: 2rem 3rem;
   border-radius: 25px;
