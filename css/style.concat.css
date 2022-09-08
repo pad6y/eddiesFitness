@@ -325,9 +325,9 @@ footer {
 }
 @media only screen and (max-width: 37.5em) {
   .comms__item {
-    width: 8.5rem;
-    height: 8.5rem;
-    font-size: 5rem;
+    width: 7rem;
+    height: 7rem;
+    font-size: 4rem;
     margin: 1.4rem 0.5rem;
   }
 }
@@ -485,7 +485,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  min-height: 25rem;
+  height: auto;
   width: 100%;
   padding: 3rem;
   border-radius: 25px;
@@ -502,7 +502,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30%;
+  max-height: 30%;
   margin-bottom: 3rem;
   padding: 2rem 3rem;
   border-radius: 25px;

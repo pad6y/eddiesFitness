@@ -14,9 +14,9 @@
     border-radius: 50%;
 
     @include respond(phone) {
-      width: 8.5rem;
-      height: 8.5rem;
-      font-size: 5rem;
+      width: 7rem;
+      height: 7rem;
+      font-size: 4rem;
       margin: 1.4rem 0.5rem;
     }
 

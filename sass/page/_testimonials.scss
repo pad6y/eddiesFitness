@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  min-height: 25rem;
+  height: auto;
   width: 100%;
   padding: 3rem;
   border-radius: 25px;
@@ -29,7 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
+    max-height: 30%;
     margin-bottom: 3rem;
     padding: 2rem 3rem;
     border-radius: 25px;
