@@ -482,9 +482,8 @@ footer {
 
 .testimonial__card {
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  height: auto;
   width: 100%;
   padding: 3rem;
   border-radius: 25px;
@@ -494,7 +493,6 @@ footer {
   .testimonial__card {
     width: 70%;
     margin: 0 auto;
-    min-height: 45rem;
   }
 }
 .testimonial__card > h1 {
@@ -510,8 +508,9 @@ footer {
 }
 @media only screen and (max-width: 37.5em) {
   .testimonial__card > h1 {
+    width: 50%;
     padding: 1rem 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 }
 .testimonial__card > p {
