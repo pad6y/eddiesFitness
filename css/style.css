@@ -328,6 +328,7 @@ footer {
     width: 8.5rem;
     height: 8.5rem;
     font-size: 5rem;
+    margin: 1.4rem 0.5rem;
   }
 }
 .comms__item a {
@@ -508,6 +509,11 @@ footer {
   background-color: #049d3f;
   color: #f4f4f4;
   box-shadow: 0px 0px 5px #303030;
+}
+@media only screen and (max-width: 37.5em) {
+  .testimonial__card > h1 {
+    padding: 1rem 1.5rem;
+  }
 }
 .testimonial__card > p {
   height: 70%;
