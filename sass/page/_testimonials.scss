@@ -1,0 +1,47 @@
+.testimonial__container {
+  @include widthCenter;
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  @include respond(phone) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.testimonial__card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  min-height: 25rem;
+  width: 100%;
+  padding: 3rem;
+  border-radius: 25px;
+  box-shadow: 0px 0px 17px $color-grey-dark;
+
+  @include respond(phone) {
+    width: 70%;
+    margin: 0 auto;
+    min-height: 45rem;
+  }
+
+  & > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    margin-bottom: 3rem;
+    padding: 2rem 3rem;
+    border-radius: 25px;
+    background-color: $color-green-primary;
+    color: $color-white;
+    box-shadow: 0px 0px 5px $color-black;
+  }
+  & > p {
+    height: 70%;
+    line-height: 1.5;
+    @include respond(phone) {
+      font-size: 2rem;
+    }
+  }
+}

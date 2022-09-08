@@ -1,0 +1,18 @@
+.u-msmall-top {
+  margin-top: 1rem !important;
+}
+.u-mbig-top {
+  margin-top: 4rem !important;
+}
+
+.u-medium-padding {
+  padding: 4rem !important;
+
+  @include respond(phone) {
+    padding: 0 !important;
+  }
+}
+
+.u-text-center {
+  text-align: center !important;
+}

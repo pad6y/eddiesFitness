@@ -1,0 +1,11 @@
+.card {
+  // max-width: 90%;
+  // height: 90%;
+  background-color: $color-white;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.5);
+  padding: 3rem;
+
+  @include respond(phone) {
+    padding: 5rem;
+  }
+}

@@ -1,0 +1,113 @@
+.section {
+  @include widthCenter;
+  padding: 2rem;
+  padding-bottom: 4rem;
+
+  &-center {
+    @include flexCenter;
+  }
+}
+
+.service_card {
+  @include flexCenter;
+  max-width: 80%;
+  margin: 2rem auto;
+  gap: 5rem;
+  font-size: 1.5rem;
+  @include respond(tab-port) {
+    max-width: 95%;
+  }
+  @include respond(phone) {
+    font-size: 2.2rem;
+    flex-direction: column;
+  }
+
+  &_imgCon {
+    width: 30%;
+
+    @include respond(phone) {
+      width: 60%;
+    }
+  }
+  &_img {
+    width: 100%;
+    min-height: 140px;
+  }
+
+  &_details {
+    width: 70%;
+
+    @include respond(phone) {
+      width: 90%;
+    }
+
+    & > h2 {
+      margin-bottom: 1rem;
+      color: $color-grey-dark;
+    }
+
+    & > p {
+      line-height: 1.5;
+    }
+  }
+
+  &_price {
+    width: 80%;
+    margin: 0.5rem auto;
+    padding: 1.5rem 2.5rem;
+    text-align: center;
+    background-color: $color-yellow-primary;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    // border: 2px solid $color-black;
+    // border-radius: 25px;
+  }
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  @include respond(phone) {
+    flex-direction: column;
+  }
+}
+
+.pricing_container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  gap: 3rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  @include respond(phone) {
+    font-size: 2rem;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  &-pricing {
+    width: 50%;
+    @include respond(phone) {
+      width: 100%;
+    }
+
+    & > h1 {
+      border-bottom: 1px solid $color-grey-light;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    & > ul {
+      list-style: none;
+      text-align: left;
+      & > li {
+        margin: 0.6rem 0;
+      }
+    }
+  }
+  &-details {
+    width: 50%;
+    text-align: left;
+    line-height: 1.5;
+    @include respond(phone) {
+      width: 100%;
+    }
+  }
+}

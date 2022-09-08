@@ -1,0 +1,10 @@
+.logo {
+  @include flexCenter;
+  width: 13rem;
+  height: 13rem;
+  margin: 0 auto;
+  @include respond(phone) {
+    width: 25rem;
+    height: 25rem;
+  }
+}

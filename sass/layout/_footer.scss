@@ -1,0 +1,64 @@
+footer {
+  background-color: $color-green-dark;
+  color: $color-white;
+}
+
+.footer {
+  &__container {
+    @include widthCenter;
+
+    &-details {
+      max-width: 680px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3rem;
+      margin-bottom: 2rem;
+
+      &-contact {
+        @include flexCenter;
+        font-size: 1.5rem;
+        line-height: 1.4;
+        & > ul {
+          list-style: none;
+          & > li {
+            & > a {
+              text-decoration: none;
+              color: $color-white;
+
+              & > i {
+                margin-right: 1rem;
+              }
+            }
+          }
+        }
+      }
+
+      &-address {
+        @include flexCenter;
+        font-size: 1.5rem;
+        line-height: 1.4;
+      }
+    }
+  }
+
+  &__copy {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+  }
+
+  &__designer {
+    padding: 1rem 0;
+    a {
+      text-decoration: none;
+      color: $color-green-light;
+    }
+  }
+}
+
+.accredits-copy {
+  display: flex;
+  justify-content: space-around;
+  padding: 10rem 0 4rem;
+  font-size: 12rem;
+}

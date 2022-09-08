@@ -1,0 +1,36 @@
+.comms {
+  @include flexCenter;
+  background-color: $color-yellow-primary;
+
+  &__item {
+    @include flexCenter;
+    list-style: none;
+    width: 5rem;
+    height: 5rem;
+    margin: 1.4rem 2.5rem;
+
+    font-size: 3rem;
+    border: 2px solid $color-black;
+    border-radius: 50%;
+
+    @include respond(phone) {
+      width: 8.5rem;
+      height: 8.5rem;
+      font-size: 5rem;
+    }
+
+    a {
+      color: $color-black;
+    }
+    a:hover {
+      color: $color-white;
+    }
+  }
+  &__item:hover {
+    border: 2px solid $color-white;
+
+    a {
+      color: $color-green-light;
+    }
+  }
+}
