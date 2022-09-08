@@ -325,8 +325,9 @@ footer {
 }
 @media only screen and (max-width: 37.5em) {
   .comms__item {
-    font-size: 4rem;
-    margin: 1.4rem 0.5rem;
+    font-size: 3.5rem;
+    margin: 1.4rem 0.2rem;
+    padding: 2rem;
   }
 }
 .comms__item a {
@@ -510,6 +511,7 @@ footer {
 @media only screen and (max-width: 37.5em) {
   .testimonial__card > h1 {
     padding: 1rem 1.5rem;
+    margin-bottom: 0.5rem;
   }
 }
 .testimonial__card > p {

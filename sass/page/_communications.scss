@@ -14,8 +14,9 @@
     border-radius: 50%;
 
     @include respond(phone) {
-      font-size: 4rem;
-      margin: 1.4rem 0.5rem;
+      font-size: 3.5rem;
+      margin: 1.4rem 0.2rem;
+      padding: 2rem;
     }
 
     a {

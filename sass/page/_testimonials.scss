@@ -38,6 +38,7 @@
 
     @include respond(phone) {
       padding: 1rem 1.5rem;
+      margin-bottom: 0.5rem;
     }
   }
   & > p {
