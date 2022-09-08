@@ -42,7 +42,7 @@
     }
   }
   & > p {
-    height: 70%;
+    height: auto;
     line-height: 1.5;
     @include respond(phone) {
       font-size: 2rem;

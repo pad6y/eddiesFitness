@@ -516,7 +516,7 @@ footer {
   }
 }
 .testimonial__card > p {
-  height: 70%;
+  height: auto;
   line-height: 1.5;
 }
 @media only screen and (max-width: 37.5em) {
