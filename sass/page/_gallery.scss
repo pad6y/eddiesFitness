@@ -1,9 +1,12 @@
 .image-slider {
+  @include widthCenter;
   position: relative;
-  width: 88rem;
   height: 56rem;
-  margin: 2rem auto;
   background: $color-green-dark;
+
+  // @include respond(phone) {
+  //   height: 30rem;
+  // }
 }
 
 .slide {
