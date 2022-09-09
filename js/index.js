@@ -34,7 +34,7 @@ btns.forEach((btn, i) => {
 const repeat = function () {
   let active = document.getElementsByClassName('active');
   let i = 1;
-  console.log(active);
+  // console.log(active);
   var repeater = () => {
     setTimeout(function () {
       [...active].forEach((activeSlide) => {
