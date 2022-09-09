@@ -34,11 +34,12 @@
 
     &-image {
       @include flexCenter;
-      width: 4rem;
-      height: 4rem;
-      border: 1px solid $color-black;
-      border-radius: 25px;
-      margin: 2rem;
+      width: 28rem;
+      height: 28rem;
+      border-radius: 50%;
+      object-fit: cover;
+      transform: translateY(2rem);
+      box-shadow: 0 0 30rem $color-yellow-primary;
     }
     &-name {
       text-transform: uppercase;

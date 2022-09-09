@@ -1,7 +1,14 @@
+#communications {
+  background-color: $color-yellow-primary;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 .comms {
   @include flexCenter;
+  @include widthCenter;
   justify-content: space-around;
-  background-color: $color-yellow-primary;
 
   &__item {
     @include flexCenter;
